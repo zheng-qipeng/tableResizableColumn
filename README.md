@@ -1,2 +1,0 @@
-# tableResizableColumn
-Created with CodeSandbox
