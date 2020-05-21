@@ -67,9 +67,7 @@ columns.forEach(col => {
 });
 const draggingState = Vue.observable(draggingMap);
 // const ResizeableTitle = (h, props, children) => {
-const ResizeableTitle = (h1) => {
-  const props = h1.props
-  const children = h1.children
+const ResizeableTitle = ({props, children}) => {
   let thDom = null;
   const { key, ...restProps } = props;
   const col = columns.find(col => {
